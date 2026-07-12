@@ -1,57 +1,87 @@
 # Sales Data Analysis Project
 
 ## Overview
-Analysis of 525,461 real online retail transactions to identify top-performing products, key markets, and sales patterns.
+Analyzed **525,461 online retail transactions** to uncover sales trends, identify top-performing products, evaluate country-wise revenue, and generate business insights using Python.
 
-## What I Did
+## Dataset
+- Dataset: Online Retail
+- Records: 525,461
+- Format: Excel (.xlsx)
 
-### Data Cleaning
+## Objectives
+- Clean and preprocess raw sales data
+- Identify top-selling products
+- Analyze country-wise revenue
+- Visualize sales patterns
+- Generate actionable business insights
+
+## Data Cleaning
 - Removed 18,000+ rows with missing values
-- Removed returns and cancelled orders
-- Removed items with zero price
-- Final clean dataset: 507,000+ valid transactions
+- Removed cancelled and returned orders
+- Removed records with zero price
+- Created a clean dataset with 507,000+ valid transactions
 
-### Analysis
-- Identified top 10 best-selling products by revenue
-- Found top 10 countries generating most sales
-- Analyzed sales amount distribution
-- Examined relationship between quantity and unit price
+## Analysis Performed
+- Top 10 products by revenue
+- Top 10 countries by sales
+- Sales distribution analysis
+- Quantity vs Unit Price relationship
 
-### Visualizations
-Created 4 professional charts:
-1. Top 10 Products by Revenue (bar chart)
-2. Top 10 Countries by Sales (bar chart)
-3. Sales Distribution (histogram)
-4. Quantity vs Price Relationship (scatter plot)
+## Visualizations
+- Top 10 Products by Revenue
+- Top 10 Countries by Sales
+- Sales Distribution Histogram
+- Quantity vs Unit Price Scatter Plot
 
 ## Key Findings
-- White products are among top sellers
-- United Kingdom is the largest market
-- Most sales are in lower price range (under £20)
-- Higher quantities don't always mean higher revenue
+- White-themed products generated significant revenue.
+- The United Kingdom was the highest revenue-generating market.
+- Most transactions were in the lower price range.
+- Large order quantities did not always result in higher revenue.
 
-## Tools & Skills Used
-- Python (Pandas, Matplotlib)
-- Data Cleaning & Validation
-- Data Analysis & Aggregation
-- Data Visualization
-- Excel file handling
+## Tools & Technologies
+- Python
+- Pandas
+- Matplotlib
+- OpenPyXL
+- Microsoft Excel
 
-## Files in Project
-- `analysis.py` - Main Python code for analysis
-- `Online Retail.xlsx` - Raw dataset (525,461 rows)
-- `sales_analysis.png` - Output visualization
-- `README.md` - This file
+## Project Structure
+```
+Sales-Data-Analysis/
+│── analysis.py
+│── Online Retail.xlsx
+│── sales_analysis.png
+│── README.md
+```
+
+## Project Screenshot
+
+![Sales Analysis Dashboard](sales_analysis.png)
 
 ## How to Run
-1. Install Python libraries: `pip install pandas matplotlib openpyxl`
-2. Place `Online Retail.xlsx` in the same folder
-3. Run: `python3 analysis.py`
-4. Charts will display and save as `sales_analysis.png`
 
-## Learning Outcome
-Through this project, I learned:
-- How to load and clean real-world messy data
-- Using Pandas for data aggregation and grouping
-- Creating professional visualizations with Matplotlib
-- Identifying business insights from data
+1. Install the required libraries:
+   ```bash
+   pip install pandas matplotlib openpyxl
+   ```
+
+2. Run the project:
+   ```bash
+   python3 analysis.py
+   ```
+
+## Skills Demonstrated
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Business Insight Generation
+- Python Programming
+- Data Aggregation
+- Problem Solving
+
+## Author
+
+**Shagun Gupta**
+
+Aspiring Data Analyst | Python | SQL | Excel | Power BI
